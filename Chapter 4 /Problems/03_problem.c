@@ -9,6 +9,6 @@
         printf("Adding %d , Sum = %d\n",i,n += i);
         i++;
     }
-            printf("The sun of first 10 natural numbers using while loop is %d\n",n);
+            printf("The sum of first 10 natural numbers using while loop is %d\n",n);
     return 0;
 }
