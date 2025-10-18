@@ -4,32 +4,32 @@
     
     int i;
     int n;
-    int factorial =1;
+    int product =1;
 
     printf("Enter the number to get the factorial =>");
     scanf("%d",&n);
 
 for (i = 1; i<=n ; i++){
     
-    factorial *= i;
+    product *= i;
 
     //printf("%d\n",i);
 
     
 }
-printf("The factorial is %d\n",factorial);
+printf("The factorial is %d\n",product);
 
 // Write a program to calculate the factorial of a given number using a for while loop.
     i = 1;
-    factorial = 1;
+    product = 1;
     n=1;
-    printf (" Enter the numbe to get the factorial of the number [ Using While Loop] \n");
+    printf (" Enter the number to get the factorial of the number [ Using While Loop] \n");
     scanf("%d",&n);
     while (i<=n){
-        factorial *= i;
+        product *= i;
         i++;
     }
-    printf("\nThe factorial is %d",factorial);
+    printf("\nThe factorial is %d",product);
 
     return 0;
 }
