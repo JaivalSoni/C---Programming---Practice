@@ -1,31 +1,28 @@
 #include<stdio.h>
     int main(){
-    int i = 72;  // integer, lives at some address
-    int* j = &i; // j is pointer pointing to i
-    int k = 69; // another integer
-    
-    printf("The address of i is %p\n",&i);  
+    int i = 72;
+    int* j = &i; // j is a integer pointer pointing to i.
+    int k = 69;
+
+    char x = 'A';
+    char* n = &x; // Here n is character pointer pointing to x.
+
+    float m = 6.99;
+    float* s = &m; // Here s is float pointer pointing to m.
+
+    printf("The address of i is %p\n",&i);
     printf("The address of j where j is pointer pointing to i is %p\n",j);
     printf("The address of j is %p\n",&j);
     printf("The address of k is %p\n",&k);
-    printf("The address of k is %p\n",*&(k));
+    printf("The address of k is %d\n",*(&k));
     printf("The value at address j is %d\n",*j);
+    printf("The address of j is %p\n",*&(j));
+    
+    printf("The address of n  is %p\n",*&(n)); // Character pointer
+    printf("The value at address n is %c\n",*n);
+    
+    printf("The address of s is %p\n",*&(s)); // Float pointer
+    printf("The value at address s is %f\n",*s);
 
     return 0;
 }
-
-/*
-Output :-
-The address of i is 0x16f396ee8 -> 
-The address of j where j is pointer pointing to i is 0x16f396ee8
-The address of j is 0x16f396ee0
-The address of k is 0x16f396edc
-The address of k is 69
-The value at address j is 72
-
-Note :-
-& — "Give me the ADDRESS of"
-* — "Go TO that address and get the VALUE"
-*(&i)  // & gives address of i, * goes back to the value → just 72 // same as writing i
-
-*/
