@@ -23,4 +23,5 @@ The address of k is 0x16f396edc
 The address of k is 69
 The value at address j is 72
 
+Note :- ( * ) asks for value at particular address.
 */
