@@ -23,5 +23,9 @@ The address of k is 0x16f396edc
 The address of k is 69
 The value at address j is 72
 
-Note :- ( * ) asks for value at particular address.
+Note :-
+& — "Give me the ADDRESS of"
+* — "Go TO that address and get the VALUE"
+*(&i)  // & gives address of i, * goes back to the value → just 72 // same as writing i
+
 */
