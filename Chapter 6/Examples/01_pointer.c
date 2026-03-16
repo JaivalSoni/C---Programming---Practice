@@ -1,7 +1,7 @@
 #include<stdio.h>
     int main(){
     int i = 72;
-    int* j = &i; // j is a integer pointer pointing to i.
+    int* j = &i; // j is a integer pointer pointing to i which means j is storing the address of i.
     int k = 69;
 
     char x = 'A';
