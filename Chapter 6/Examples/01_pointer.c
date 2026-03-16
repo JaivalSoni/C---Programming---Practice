@@ -14,7 +14,7 @@
     printf("The address of j where j is pointer pointing to i is %p\n",j);
     printf("The address of j is %p\n",&j);
     printf("The address of k is %p\n",&k);
-    printf("The address of k is %d\n",*(&k));
+    printf("The value at address of k is %d\n",*(&k));
     printf("The value at address j is %d\n",*j);
     printf("The address of j is %p\n",*&(j));
     
