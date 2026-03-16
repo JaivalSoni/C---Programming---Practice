@@ -24,6 +24,6 @@ int main(){
 
     ptr1 = sum(x,y);
     ptr2 = avg(x,y);
-    printf("The address of sum is %d and of average is %d",ptr1,ptr2);
+    printf("The address of sum is %u and of average is %u",ptr1,ptr2);
     return 0;
 }
